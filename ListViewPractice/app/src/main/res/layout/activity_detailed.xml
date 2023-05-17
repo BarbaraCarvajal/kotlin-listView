@@ -36,14 +36,14 @@
         </androidx.cardview.widget.CardView>
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Duration"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/lavender"
-            android:layout_marginTop="30dp"
-            android:layout_marginStart="10dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"/>
 
     <TextView
         android:id="@+id/detailTime"
@@ -52,11 +52,11 @@
         android:text="time"
         android:layout_marginStart="10dp"
         android:textSize="16sp"/>
-    <!--
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Duration"
+            android:text="Ingredientes: "
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/lavender"
@@ -64,14 +64,32 @@
             android:layout_marginStart="10dp"/>
 
         <TextView
-            android:id="@+id/detailTime"
+            android:id="@+id/detailIngredientes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="time"
+            android:text="@string/maggiIngredients"
             android:layout_marginStart="10dp"
             android:textSize="16sp"/>
 
-    -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steps: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/lavender"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/detailDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maggieDesc"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>
 
 
-    </LinearLayout>
+
+
+</LinearLayout>
