@@ -18,13 +18,11 @@ class ListAdapter(context: Context, dataArrayList: ArrayList<ListData?>?) :
             view = LayoutInflater.from(context).inflate(R.layout.list_item, parent, false)
         }
         val listImage = view!!.findViewById<ImageView>(R.id.listImage)
-        val listName = view.findViewById<TextView>(R.id.listImage)
-        val listTime = view.findViewById<TextView>(R.id.listImage)
-
+        val listName = view.findViewById<TextView>(R.id.listName)
+        val listTime = view.findViewById<TextView>(R.id.listTime)
         listImage.setImageResource(listData!!.image)
         listName.text = listData.name
         listTime.text = listData.time
-
         return view
     }
 }
